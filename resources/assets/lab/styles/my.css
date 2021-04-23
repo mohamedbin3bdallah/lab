@@ -1,0 +1,28 @@
+.header_container {
+    width: 100%x;
+    background: white !important;
+}
+
+.fa {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.one {
+    font-size: 17px;
+}
+
+.ul-danger, .li-danger, .ul-success, .li-success{
+	text-align: center;
+	padding: 1%;
+}
+.li-danger {
+	list-style: none;
+	color: #fff;
+	background-color: red;
+}
+.li-success {
+	list-style: none;
+	color: #fff;
+	background-color: green;
+}

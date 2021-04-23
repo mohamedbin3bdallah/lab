@@ -1,0 +1,77 @@
+/*!
+ * Bootstrap rtl v4.0.0-beta.2 
+ * Copyright (http://nafeza.net)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+html {
+    direction: rtl !important; 
+}
+
+body {
+    direction: rtl !important; 
+    text-align: right !important; 
+}
+
+.top_bar {
+   
+    direction: ltr !important; 
+}
+
+.home_slider_container {
+   direction: ltr !important; 
+}
+
+.logo_content {
+   
+    padding-right: 33px !important; 
+}
+
+
+.section_title::before {
+    left: unset !important; ;
+}
+
+.dept_button {
+   left: unset !important; 
+    right: 0 !important; ;
+}
+
+.ml-lg-auto, .mx-lg-auto {
+  margin-left: unset;
+    margin-right: auto!important; 
+}
+
+.footer_social ul li:not(:last-child) {
+   margin-right: unset !important;
+}
+
+.home_slider_content h1{
+    text-align: right !important;
+}
+
+.home_slider_text {
+    text-align: right !important;
+}
+
+.contact_input {
+   
+    
+    padding-right: 25px !important;
+    padding-left: unset;
+}
+
+#exampleFormControlFile1{
+    padding-right: 25px !important;
+    padding-left: unset;
+}
+
+.close{
+    float: left !important;
+    text-align: left !important;
+    direction: ltr !important;
+}
+.modal-header .close{
+    margin: 0px !important;
+    padding: 0px !important;
+}
